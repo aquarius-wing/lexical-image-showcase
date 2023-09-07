@@ -12,7 +12,7 @@ import Editor from './components/Editor.vue'
       <ul>
         <li>
           <a
-              href="https://github.com/wobsoriano/lexical-vue/tree/master/packages/playground"
+              href="https://github.com/aquarius-wing/lexical-image-showcase"
               target="_blank"
               rel="noreferrer"
           >
