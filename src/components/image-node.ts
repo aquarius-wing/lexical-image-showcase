@@ -15,9 +15,9 @@ import type {
   NodeKey,
   SerializedLexicalNode,
   Spread,
-} from '@meogic/lexical';
+} from 'lexical';
 
-import { DecoratorNode } from '@meogic/lexical';
+import { DecoratorNode } from 'lexical';
 import type { Component } from 'vue';
 import { h } from 'vue';
 import ImageNodeVue from './image-node-vue.vue'

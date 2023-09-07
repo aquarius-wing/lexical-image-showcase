@@ -1,17 +1,17 @@
 <script lang="ts" setup>
-import { useEditor } from '@meogic/lexical-vue';
+import { useEditor } from 'lexical-vue';
 import type {
   GridSelection,
   LexicalEditor,
   NodeSelection,
   RangeSelection,
-} from '@meogic/lexical';
-import { mergeRegister } from '@meogic/lexical-utils';
+} from 'lexical';
+import { mergeRegister } from '@lexical/utils';
 import {
   $getNodeByKey,
   $getSelection,
   $isNodeSelection,
-} from '@meogic/lexical';
+} from 'lexical';
 import { defineProps, onMounted, onUnmounted, ref, watch } from 'vue'
 import LazyImage from './lazy-image.vue'
 import ImageResizer from './image-resizer.vue'

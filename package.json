@@ -9,9 +9,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@meogic/lexical": "^0.11.1-mod7",
-    "@meogic/lexical-rich-text": "^0.11.1-mod7",
-    "@meogic/lexical-vue": "^0.11.1-mod7",
+    "lexical": "0.11.3",
+    "lexical-vue": "^0.6.3",
     "vue": "^3.3.4"
   },
   "devDependencies": {

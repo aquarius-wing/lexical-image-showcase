@@ -1,8 +1,8 @@
 import type { Ref } from 'vue';
 import { onMounted, onUnmounted, ref } from 'vue';
-import type { LexicalEditor, LexicalNode } from '@meogic/lexical'
-import { $createNodeSelection, $getNodeByKey, $getSelection, $isNodeSelection, $setSelection } from '@meogic/lexical';
-import { mergeRegister } from '@meogic/lexical-utils';
+import type { LexicalEditor, LexicalNode } from 'lexical-vue'
+import { $createNodeSelection, $getNodeByKey, $getSelection, $isNodeSelection, $setSelection } from 'lexical';
+import { mergeRegister } from '@lexical/utils';
 
 function isNodeSelected(editor: LexicalEditor, key: string) {
   return editor.getEditorState().read(() => {

@@ -1,12 +1,12 @@
 <script lang="ts" setup>
 import { defineProps, onMounted, onUnmounted, ref } from 'vue';
-import type { LexicalNode } from '@meogic/lexical';
+import type { LexicalNode } from 'lexical';
 import {
   $createNodeSelection,
   $getNearestNodeFromDOMNode, $getNodeByKey,
   $setSelection,
-} from '@meogic/lexical';
-import { useEditor } from '@meogic/lexical-vue';
+} from 'lexical';
+import { useEditor } from 'lexical-vue';
 import { $isImageNode } from './image-node';
 
 const props = defineProps<{

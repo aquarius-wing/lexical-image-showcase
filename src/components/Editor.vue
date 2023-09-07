@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { $createParagraphNode, $createTextNode, $getRoot } from '@meogic/lexical'
+import { $createParagraphNode, $createTextNode, $getRoot } from 'lexical'
 import {
   LexicalAutoFocusPlugin,
   LexicalComposer,
@@ -9,13 +9,13 @@ import {
   LexicalLinkPlugin,
   LexicalListPlugin,
   LexicalRichTextPlugin,
-} from '@meogic/lexical-vue'
-import { $createHeadingNode, $createQuoteNode, HeadingNode, QuoteNode } from '@meogic/lexical-rich-text'
-import { TableCellNode, TableNode, TableRowNode } from '@meogic/lexical-table'
-import { $createListItemNode, $createListNode, ListItemNode, ListNode } from '@meogic/lexical-list'
-import { CodeHighlightNode, CodeNode } from '@meogic/lexical-code'
-import { $createLinkNode, AutoLinkNode, LinkNode } from '@meogic/lexical-link'
-import { HashtagNode } from '@meogic/lexical-hashtag'
+} from 'lexical-vue'
+import { $createHeadingNode, $createQuoteNode, HeadingNode, QuoteNode } from '@lexical/rich-text'
+import { TableCellNode, TableNode, TableRowNode } from '@lexical/table'
+import { $createListItemNode, $createListNode, ListItemNode, ListNode } from '@lexical/list'
+import { CodeHighlightNode, CodeNode } from '@lexical/code'
+import { $createLinkNode, AutoLinkNode, LinkNode } from '@lexical/link'
+import { HashtagNode } from '@lexical/hashtag'
 import {$createImageNode, ImageNode} from "./image-node";
 import LexicalOperateImagePlugin from "./lexical-operate-image-plugin.vue";
 
@@ -31,7 +31,7 @@ function prePopulatedRichText() {
     )
     // @ts-ignore
     const image = $createImageNode({
-      src: "https://qiniu.keepwork.com/70-5fd74149-814e-472d-8bec-44b56ae92b56.jpg?e=4834193186&token=LYZsjH0681n9sWZqCM4E2KmU6DsJOE7CAM4O3eJq:t7PphTkSZPsZWZLDni7cJkrGvRo=",
+      src: "https://initiate.alphacoders.com/images/127/cropped-320-180-1274305.png?7959",
     })
     root.append($createParagraphNode().append(image))
     root.append(

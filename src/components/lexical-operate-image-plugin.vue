@@ -2,9 +2,9 @@
 
 <script setup lang="ts">
 import { onMounted, onUnmounted, ref } from 'vue';
-import { mergeRegister } from '@meogic/lexical-utils';
-import { $isAtNodeEnd } from '@meogic/lexical-selection'
-import type { ElementNode, GridSelection, LexicalEditor, LexicalNode, NodeSelection, RangeSelection } from '@meogic/lexical';
+import { mergeRegister } from '@lexical/utils';
+import { $isAtNodeEnd } from '@lexical/selection'
+import type { ElementNode, GridSelection, LexicalEditor, LexicalNode, NodeSelection, RangeSelection } from 'lexical';
 import {
   $getNearestNodeFromDOMNode,
   $getNodeByKey,
@@ -21,8 +21,8 @@ import {
   KEY_BACKSPACE_COMMAND,
   KEY_DELETE_COMMAND,
   SELECTION_CHANGE_COMMAND,
-} from '@meogic/lexical';
-import { useEditor } from '@meogic/lexical-vue';
+} from 'lexical';
+import { useEditor } from 'lexical-vue';
 import type { ImageNode } from './image-node';
 import { $isImageNode } from './image-node';
 import useLexicalNodeSelection from './useLexicalNodeSelection';
