@@ -3,7 +3,7 @@
 A display that allows image adjustment via mouse control, featuring a selection state for images. Images can only be
 deleted when selected.
 
-[CleanShot 2023-09-07 at 19.27.38.mp4](CleanShot%202023-09-07%20at%2019.27.38.mp4)
+https://github.com/aquarius-wing/lexical-image-showcase/assets/16633962/8987f7ee-41a9-4851-8c6a-b3256252142f
 
 ## Online demo
 
