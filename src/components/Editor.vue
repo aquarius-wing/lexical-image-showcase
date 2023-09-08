@@ -31,7 +31,7 @@ function prePopulatedRichText() {
     )
     // @ts-ignore
     const image = $createImageNode({
-      src: "https://initiate.alphacoders.com/images/127/cropped-320-180-1274305.png?7959",
+      src: "https://images2.alphacoders.com/127/1274305.png",
     })
     root.append($createParagraphNode().append(image))
     root.append(
